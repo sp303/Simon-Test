@@ -1,0 +1,22 @@
+/**
+ * Fonts CSS file defines all font family(s), sizes, weights and colours
+ *
+ * @copyright  2009 Deckchair UK Ltd www.deckchair.co.uk
+ * @author     Simon Pollard
+ * @version    v1.0
+*/
+
+div#main {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+h1 {
+}
+h2 {
+}
+p {
+	font-size: 12px;
+}
+span#copywrite {
+	font-size: 10px;
+	color: #FFFFFF;
+}

@@ -1,0 +1,68 @@
+/**
+ * Main CSS file for site, defines all styles used on every page
+ *
+ * @copyright  2009 Deckchair UK Ltd www.deckchair.co.uk
+ * @author     Simon Pollard
+ * @version    v1.0
+*/
+
+/* 	
+Style for all pages
+-----------------------------------------------------------*/
+* { padding: 0; margin: 0; }
+* html a:hover {visibility:visible}
+html {
+	height: 100%;
+	text-align: center;
+}
+div#main {
+	text-align: left;
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+    position: relative;
+}
+
+/* 	
+Style for header
+-----------------------------------------------------------*/
+div#header {
+	height: 173px;
+	background-image: url(../images/pro-serve.jpg);
+	background-repeat: repeat-x;
+}
+div#logo {
+	height: 117px;
+	width: 395px;
+	background-image: url(../images/curly-wig.jpg);
+	margin-left: 20px;
+}
+div#logo a {
+	display: block;
+	height: 117px;
+	width: 395px;
+}
+
+/* 	
+Style for content
+-----------------------------------------------------------*/
+div#content {
+	margin-bottom: 10px;
+}
+
+
+/* 	
+Styles for footer
+-----------------------------------------------------------*/
+div#footer {
+	padding-top: 15px;
+	clear: both;
+	height: 21px;
+	background-image: url(../images/footer.jpg);
+	background-repeat: repeat-x;
+}
+span#copywrite {
+	right: 20px;
+	position: absolute;
+}
