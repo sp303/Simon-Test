@@ -18,7 +18,7 @@ $keywords = "";
 // load page header - sends to classes/main.php (title, meta desc, meta keyword, css (if needed))
 PageHeader("Welcome",$description,$keywords,"indexpage");
 
-echo "<p></p>\n";
+echo "<p>This is a bug fix</p>\n";
 
 // load page footer - sends to classes/main.php
 PageFooter();
