@@ -14,6 +14,8 @@ include("classes/main.php");
 $description = "";
 // set up meta keywords
 $keywords = "";
+
+echo "<p>This is from the testing branch</p>\n";
 	
 // load page header - sends to classes/main.php (title, meta desc, meta keyword, css (if needed))
 PageHeader("Welcome",$description,$keywords,"indexpage");
