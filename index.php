@@ -16,6 +16,7 @@ $description = "";
 $keywords = "";
 
 echo "<p>This is from the testing branch</p>\n";
+echo "<p>and so is this</p>\n";
 	
 // load page header - sends to classes/main.php (title, meta desc, meta keyword, css (if needed))
 PageHeader("Welcome",$description,$keywords,"indexpage");
